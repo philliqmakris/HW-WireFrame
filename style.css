@@ -4,6 +4,7 @@ body {
       background: #777;
       width: 960px;
       font-size: 18px;
+      margin: auto;
 }
 
 Header, Nav, Section, Aside, Footer {
@@ -15,6 +16,8 @@ article {
     background: #777;
     padding: 20px;
     margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
 }
 
@@ -26,7 +29,7 @@ section {
     width: 495px;
     border: solid;
     padding: 50px;
-    margin: 5px;
+    
     text-align: center;
 }
 
@@ -35,6 +38,10 @@ header {
     text-align: center;
     padding: 40px;
     margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    
     
 }
 
@@ -43,28 +50,32 @@ nav {
     border: solid;
     padding: 40px;
     margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 aside {
     border: solid;
     float: right;
-    padding: 145px;
-    margin: 5px;
-    
-    
-    text-align: top;
+    padding: 148px;
+    /* margin-left: auto;
+    margin-right: auto;
+    margin: 5px; */
+
     
 }
 
 .header1 {
    
     margin: 5px;
+    margin-right: auto;
+    margin-left: auto;
     text-align: center;
     border: solid;
     background: #ebebeb;
     color: #777;
     padding: 15px;
-    margin: 5px;
+    
     
     
 }
@@ -74,6 +85,8 @@ footer {
     border: solid;
     padding: 40px;
     margin: 5px;
+    margin-right: auto;
+    margin-left: auto;
     float: bottom;
 }
 
@@ -82,6 +95,8 @@ p {
     border: solid;
     padding: 15px;
     margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
     background: #ebebeb;
     color: #777;
 }
